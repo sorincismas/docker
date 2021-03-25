@@ -1,0 +1,4 @@
+yum update 
+yum install openssh openssh-server -y 
+systemctl restart sshd 
+systemctl enable sshd passwd
